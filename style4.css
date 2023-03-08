@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.example11, .example12{
+    width: 700px;
+    height: 700px;
+}
+.example11 .container{
+    background-color: rgb(135, 222, 157);
+}
+.eye1, .eye2{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    
+}
+ .eye1{
+    left: 100px;
+    top: 100px;
+}
+.eye2{
+    right: 100px;
+    top: 100px;
+}
+ .nose{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 210px;
+    bottom: 180px;
+}
+.lips, .lips1, .lips2{
+    background-color: white;
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 155px;
+    bottom: 80px;
+}
+.example12 .nose{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    z-index: 3;
+}
+
+
+.example12 .container{
+    background-color: rgb(218, 218, 30);
+}
+.example12 .lips1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.example12 .lips2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color:  rgb(218, 218, 30);
+    left: 130px;
+    top: 140px;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Задание 8 */
+.example8{
+    width: 500px;
+    height: 500px;
+}
+.container{
+    position: relative;
+    width: 450px;
+    height: 400px;
+    margin: 0px auto;
+    border: 1px solid green;
+}
+.example8 .block1{
+    border: 1px solid red;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 80px;
+    top: 80px;
+}
+/* Задание 9 */
+.example9{
+    width: 500px;
+    height: 500px;
+}
+.example9 .container{
+    background-color: rgb(159, 222, 159);
+}
+.example9 .block1{
+    background-color: white;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 45px;
+    top: 45px;
+}
+.example9 .block2{
+    background-color: white;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 45px;
+    bottom: 45px;
+}
+/* Задание 10 */
+.example10 .container{
+    border: 1px solid black;
+    width: 200px;
+    height: 500px;
+    margin: 150px;
+    
+}
+.container .red, .yellow, .green{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50px;
+}
+.red{
+    background-color: red;
+    left: 50px;
+    top: 50px;
+}
+.yellow{
+    background-color: yellow;
+    left: 50px;
+    top: 170px;
+}
+.green{
+    background-color: green;
+    left: 50px;
+    top: 290px;
+}
+
